@@ -39,6 +39,50 @@ const routes: Routes = [
     path: 'date',
     loadChildren: () => import('./pages/date/date.module').then( m => m.DatePageModule)
   },
+  {
+    path: 'fab',
+    loadChildren: () => import('./pages/fab/fab.module').then( m => m.FabPageModule)
+  },
+  {
+    path: 'gird',
+    loadChildren: () => import('./pages/gird/gird.module').then( m => m.GirdPageModule)
+  },
+  {
+    path: 'scroll',
+    loadChildren: () => import('./pages/scroll/scroll.module').then( m => m.ScrollPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'list',
+    loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
+  },
+  {
+    path: 'reorder',
+    loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'loading',
+    loadChildren: () => import('./pages/loading/loading.module').then( m => m.LoadingPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'modal-info',
+    loadChildren: () => import('./pages/modal-info/modal-info.module').then( m => m.ModalInfoPageModule)
+  },
+  {
+    path: 'popover',
+    loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule)
+  },
+  {
+    path: 'progress',
+    loadChildren: () => import('./pages/progress/progress.module').then( m => m.ProgressPageModule)
+  },
 ];
 
 @NgModule({
