@@ -83,5 +83,35 @@
       "icon": "code-working-outline",
       "name": "Porgress",
       "redirectTo": "/progress"
+    },
+    {
+      "icon": "arrow-down-circle-outline",
+      "name": "Refresher",
+      "redirectTo": "/refresher"
+    },
+    {
+      "icon": "search-outline",
+      "name": "SearchBar",
+      "redirectTo": "/searchbar"
+    },
+    {
+      "icon": "copy-outline",
+      "name": "Segment",
+      "redirectTo": "/segment"
+    },
+    {
+      "icon": "albums-outline",
+      "name": "Slides",
+      "redirectTo": "/slides"
+    },
+    {
+      "icon": "cog-outline",
+      "name": "Tabs",
+      "redirectTo": "/tabs/account"
+    },
+    {
+      "icon": "pricetag-outline",
+      "name": "Toast",
+      "redirectTo": "/toast"
     }
   ]
